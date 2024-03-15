@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <style>
+        /* 간단한 스타일링 추가 */
+    </style>
+</head>
+<body>
+    <div>
+        <h2>게시글 작성</h2>
+        <form id="postForm">
+            <input type="text" id="title" placeholder="제목" required><br>
+            <textarea id="content" placeholder="내용" required></textarea><br>
+            <button type="submit">게시글 작성</button>
+        </form>
+    </div>
+    <div id="postsContainer">
+        <h2>게시글 목록</h2>
+        <!-- 게시글 목록이 여기에 표시됩니다 -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
